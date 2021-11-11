@@ -7,7 +7,7 @@ import main as bonjour
 
 
 def main():
-    bonjour.print_hi('Genevieve T.')
+    bonjour.print_hi('Genevieve T. alias GT')
     bonjour.compter(8)
 
 
