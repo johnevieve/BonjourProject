@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
 # Importer directement les fonctions.
-from main import print_hi, compter
+from main import bonjour, compter
 
 
 def main():
-    print_hi('Genevieve T.')
+    bonjour('Genevieve T.')
     compter(3)
 
 

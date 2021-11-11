@@ -3,21 +3,21 @@
 import time
 
 
-def print_hi(name):
+def bonjour(name):
     print(f'Bonjour, {name}')
 
 
-def compter(nb):
-    print(f"Je sais compter jusqu'à {nb}:",
+def compter(maxi, secs=0.25):
+    print(f"Je sais compter jusqu'à {maxi}:",
           end=' ', flush=True)
-    for i in range(1, nb + 1):
-        time.sleep(0.25)  # un quart de seconde
+    for i in range(1, maxi + 1):
+        time.sleep(secs)  # un quart de seconde
         print(i, end=' ', flush=True)
     print()
 
 
 def main():
-    print_hi('Genevieve T.')
+    bonjour('Genevieve T.')
     compter(5)
     compter(10)
 

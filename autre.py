@@ -7,8 +7,8 @@ import main as bonjour
 
 
 def main():
-    bonjour.print_hi('Genevieve T. alias GT')
-    bonjour.compter(8)
+    bonjour.bonjour('Genevieve T. alias GT')
+    bonjour.compter(8, 0.5)
 
 
 if __name__ == '__main__':
